@@ -5,6 +5,18 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+.boxes{
+    padding: 60px 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subtitle{
+    font-size: 2.5em;
+    margin-bottom: 60px;
+}
+
+
 .header{
     width: 100%;
     height: 100vh;
@@ -32,15 +44,15 @@
 main{
     width: 100%;
 }
+
+/* ********** */
+/*  SOBRE MI  */
+/* ********** */
 .sobre-mi{
     background-color: rgba(114, 153, 254, 1);
-    text-align: center;
-    padding: 27px 47px;
 }
 .sobre-mi h2{
     color: rgba(29, 6, 167, 1);
-    font-size: 2.5em;
-    margin-bottom: 20px;
 }
 .sobre-mi p{
     background-color: rgba(114, 153, 254, 1);
@@ -67,15 +79,9 @@ main{
 
 .mis-skills{
     background-color: rgba(144, 34, 255, 1);
-    padding: 60px 47px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .mis-skills h2{
     color: rgba(38, 204, 75, 1);
-    font-size: 2.5em;
-    margin-bottom: 60px;
 }
 .bar-column{
     width: 100%;
@@ -136,15 +142,9 @@ main{
 
 .portafolio{
     background-color: rgba(255, 210, 51, 1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 60px;
 }
 .portafolio h2{
     color: rgba(0, 173, 132, 1);
-    margin: 60px 0;
-    font-size: 2.5em;
 }
 .portafolio div img{
     margin-left: 30px;
@@ -157,15 +157,9 @@ main{
 
 .clientes{
     background-color: rgba(63, 78, 98, 1);
-    padding: 60px 47px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .clientes h2{
     color: rgba(173, 255, 40, 1);
-    font-size: 2.5em;
-    margin-bottom: 60px;
 }
 .clientes div{
     width: 100%;
@@ -180,15 +174,9 @@ main{
 
 .contacto{
     background-color: rgba(22, 135, 160, 1);
-    padding: 60px 47px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .contacto h2{
     color: rgba(255, 27, 27, 1);
-    font-size: 2.5em;
-    margin-bottom: 60px;
 }
 .contacto .form{
     width: 100%;
@@ -212,6 +200,7 @@ main{
     height: 60px;
     margin-bottom: 40px;
     padding-left: 20px;
+    color: #000;
 }
 
 .contacto .form .textarea{
@@ -220,9 +209,12 @@ main{
     margin-bottom: 40px;
 }
 
-.contacto .form .inputs .textarea textarea{
-    width: 500px;
+.contacto .form .textarea textarea{
+    width: 100%;
+    height: 120px;
+    padding-top: 20px;
     padding-left: 20px;
+    color: #000;
 }
 .contacto .form button{
     background-color: rgba(35, 52, 81, 1);
