@@ -222,10 +222,33 @@ main{
     padding: 20px 35px;
     font-size: 1em;
 }
+
 @media screen and ( max-width: 600px ){
     .subtitle{
-        font-size: 70px;
+        display: block;
+        font-size: 40px;
         margin-bottom: 60px;
+    }
+    .header h1{
+        font-size: 50px;
+    }
+
+    .header div{
+        width: 250px;
+        top: 60%;
+        left: 10%;
+        background-color: rgba(114, 153, 254, 0.5);
+        padding: 15px;
+        font-size: 0.7em;
+    }
+
+    /* ********** */
+    /*  SOBRE MI  */
+    /* ********** */
+    .sobre-mi div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     /* ********** */
@@ -239,6 +262,9 @@ main{
     .bar-column div{
         width: 100%;
     }
+    .padding{
+        padding: 0;
+    }
 
     /* ********** */
     /* PORTAFOLIO */
@@ -250,7 +276,7 @@ main{
         align-items: center;
     }
     .portafolio div img{
-        width: 50%;
+        width: 70%;
         margin-left: 0;
     }
 
@@ -265,7 +291,7 @@ main{
         align-items: center;
     }
     .clientes div img{
-        width: 50%;
+        width: 70%;
         margin-bottom: 30px;
     }
 
@@ -277,5 +303,11 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .contacto .form .inputs div{
+        padding: 0;
+    }
+    .contacto .form .textarea{
+        padding: 0;
     }
 }
