@@ -67,13 +67,15 @@ main{
 
 .mis-skills{
     background-color: rgba(144, 34, 255, 1);
-    padding: 27px 47px;
+    padding: 60px 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .mis-skills h2{
     color: rgba(38, 204, 75, 1);
     font-size: 2.5em;
-    margin-bottom: 20px;
-    text-align: center;
+    margin-bottom: 60px;
 }
 .bar-column{
     width: 100%;
@@ -84,25 +86,28 @@ main{
     width: 50%;
 }
 .padding{
-    padding: 20px;
+    padding: 0 30px;
 }
 .bar-column div .card-bar{
     width: 100%;
-    margin: 10px 0;
+    margin-bottom: 30px;
 }
 .card-bar p{
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .bar-column div .card-bar .bar{
     width: 100%;
-    height: 15px;
+    height: 25px;
     background-color: #fff;
     border-radius: 25px;
 }
+.bar-column div .card-bar p{
+    font-size: 1.2em;
+}
 .bar .progress-bar{
     display: block;
-    height: 15px;
+    height: 25px;
     background-color: #57eff9;
     border-radius: 25px;
 }
@@ -125,13 +130,103 @@ main{
     width: 90%;
 }
 
+/* ********** */
+/* PORTAFOLIO */
+/* ********** */
+
 .portafolio{
     background-color: rgba(255, 210, 51, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 60px;
 }
 .portafolio h2{
     color: rgba(0, 173, 132, 1);
-    margin: 20px 0;
+    margin: 60px 0;
+    font-size: 2.5em;
+}
+.portafolio div img{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+/* ********** */
+/*  CLIENTES  */
+/* ********** */
+
+.clientes{
+    background-color: rgba(63, 78, 98, 1);
+    padding: 60px 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clientes h2{
+    color: rgba(173, 255, 40, 1);
+    font-size: 2.5em;
+    margin-bottom: 60px;
+}
+.clientes div{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ********** */
+/*  CONTACTO  */
+/* ********** */
+
+.contacto{
+    background-color: rgba(22, 135, 160, 1);
+    padding: 60px 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto h2{
+    color: rgba(255, 27, 27, 1);
+    font-size: 2.5em;
+    margin-bottom: 60px;
+}
+.contacto .form{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto .form .inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contacto .form .inputs div{
+    width: 100%;
+    padding: 0 20px;
+}
+.contacto .form .inputs div input{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.contacto .form .textarea{
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.contacto .form .inputs .textarea textarea{
+    width: 500px;
+    padding-left: 20px;
+}
+.contacto .form button{
+    background-color: rgba(35, 52, 81, 1);
+    border: none;
+    padding: 20px 35px;
+    font-size: 1em;
 }
