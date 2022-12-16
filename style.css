@@ -12,10 +12,9 @@
     align-items: center;
 }
 .subtitle{
-    font-size: 2.5em;
+    font-size: 40px;
     margin-bottom: 60px;
 }
-
 
 .header{
     width: 100%;
@@ -71,6 +70,10 @@ main{
     border: none;
     background-color: rgba(209, 111, 255, 1);
     font-size: 25px;
+}
+
+@media screen and ( max-width:600px ){
+
 }
 
 /* ********** */
@@ -221,4 +224,61 @@ main{
     border: none;
     padding: 20px 35px;
     font-size: 1em;
+}
+@media screen and ( max-width: 600px ){
+    .subtitle{
+        font-size: 70px;
+        margin-bottom: 60px;
+    }
+
+    /* ********** */
+    /* MIS SKILLS */
+    /* ********** */
+    .bar-column{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .bar-column div{
+        width: 100%;
+    }
+
+    /* ********** */
+    /* PORTAFOLIO */
+    /* ********** */
+    .portafolio div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .portafolio div img{
+        width: 50%;
+        margin-left: 0;
+    }
+
+    /* ********** */
+    /*  CLIENTES  */
+    /* ********** */
+    .clientes div{
+        width: 100%;
+        max-width: 1440px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clientes div img{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /* ********** */
+    /*  CONTACTO  */
+    /* ********** */
+    .contacto .form .inputs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
